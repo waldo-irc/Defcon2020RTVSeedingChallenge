@@ -38,7 +38,7 @@ def start_seed(max):
 	return seed
 
 def get_random_string(length):
-	key = 'ereselamordemivida'
+	key = 'ACTFKEYGOESHERE'
 	result_str = ''.join(random.choice(key) for i in range(length))
 	return result_str
 
